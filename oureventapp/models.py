@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class OurEvent(models.Model):
+class OurEvents(models.Model):
     name = models.CharField(max_length=200)
     desc = models.TextField(blank=True)
     hours = models.IntegerField(default=0)
